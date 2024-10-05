@@ -55,7 +55,7 @@ public class Test {
 		System.out.println(sistema.getListaMensajes());
 		System.out.println("4-1");
 		System.out.println(sistema.traerMensaje("Personal"));
-		System.out.println((4-2));
+		System.out.println("4-2");
 		System.out.println(sistema.traerMensaje(LocalDate.of(2020,11,20), LocalTime.of(16,0) , LocalTime.of (18,0)));
 		
 		System.out.println("4-3");
