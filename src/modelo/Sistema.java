@@ -72,9 +72,9 @@ public Mensaje traerMesaje(int idMensaje) {
 }
 public OperadorMovil operadores(int i) {
     OperadorMovil[] operadores = new OperadorMovil[]{
-            new OperadorMovil(1, "Claro"),
-            new OperadorMovil(2, "Movistar"),
-            new OperadorMovil(3, "Personal")
+            new OperadorMovil(1,"Claro"),
+            new OperadorMovil(2,"Movistar"),
+            new OperadorMovil(3,"Personal")
           
         };
     return operadores[i];
